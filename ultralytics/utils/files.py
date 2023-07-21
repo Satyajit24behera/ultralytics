@@ -52,7 +52,7 @@ def increment_path(path, exist_ok=False, sep='', mkdir=False):
             p = f'{path}{sep}{n}{suffix}'  # increment path
             if not os.path.exists(p):  #
                 break
-        path = Path(p)
+       
 
     if mkdir:
         path.mkdir(parents=True, exist_ok=True)  # make directory
